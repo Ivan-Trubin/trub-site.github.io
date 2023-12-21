@@ -1,0 +1,33 @@
+#callback {
+ width: 300px;
+ height: 150px;
+ background-color: black;
+ position: absolute;
+ bottom: 65px;
+ transform: translateX(-107%);
+}
+
+
+#callback p {
+ color: white;
+ padding: 39px;
+    
+}
+
+#callback:after {
+ content: 'Примечание' ;
+ background-color: darkblue;
+ text-align: center;
+ border-radius: 0 0 8px 8px;
+ padding: 5px 0;
+ width: 150px;
+ position: absolute;
+ left: 300px;
+ transform: rotate(-90deg);
+ transform-origin: 0 0;
+}
+
+#callback:hover {
+ transform: translateX(-7%);
+ transition: all 0.7s ease;
+}

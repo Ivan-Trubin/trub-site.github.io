@@ -1,0 +1,15 @@
+h1 {
+animation: myAnim 10s linear alternate infinite;
+ background-color: black;
+ width: 30vw;
+ color: white;
+}
+
+@keyframes myAnim {
+ from {
+   margin-left: 200;
+ }
+ to {
+   margin-left: 1320px;
+ }
+}
